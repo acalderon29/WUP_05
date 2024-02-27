@@ -63,11 +63,17 @@ barchartGC(~infected + treatment,data=drugUsersData, type="percent")
 
 ```
 
- 
+ With the charts shown you can see that the placebo works. 
 
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
+```{r}
+table1 <- xtabs(~infected + treatment, data=drugUsersData)
+rowPerc(table1)
+colPerc(table1)
+```
 
 ## Inferential Results
 
