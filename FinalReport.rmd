@@ -63,7 +63,7 @@ barchartGC(~infected + treatment,data=drugUsersData, type="percent")
 
 ```
 
- With the charts shown you can see that the placebo works. 
+ By looking at the chart you are able to see that the charts shown you can see that the placebo works.The percentage has risen where as those who have been getting the drug shows a lower percentage showing that the drug is working.
 
 ### Numerical Descriptive Results
 
@@ -74,6 +74,8 @@ table1 <- xtabs(~infected + treatment, data=drugUsersData)
 rowPerc(table1)
 colPerc(table1)
 ```
+When looking into this graph you are able to see if you are infected with aids then 24.29% were getting the drug and 75.71% were getting the placebo. 
+
 
 ## Inferential Results
 
