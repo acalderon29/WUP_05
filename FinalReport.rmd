@@ -90,6 +90,16 @@ chisq.test (table1)
 chisqtestGC(table1)
 ```
 
+```{r}
+fisher.test(table1)
+```
+
+In these tests ran, we see that the p-value is 0.0000000423. This means that the preventative aids drug seems as it is working effectively. 
+
+
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+We are attempting to determine the efficacy of this novel preventative assistance medication. Since the p-value is less than 0.0000000423, the null hypothesis is rejected. The preventative new aids medication appears to be potentially beneficial based on the bar chart.
+
